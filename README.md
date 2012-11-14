@@ -60,8 +60,9 @@ These steps have been tested on Lion 10.7.4 with Xcode 4.3.2 and Mountain Lion
 
 ### Optional (for `gr-air-modes`)
 
-- Before installing `gnuradio`, install 'PyQt' and 'qwt' for building modes_gui.py.
+- If GUI required, install 'PyQt' and 'qwt' before installing `gr-air-modes`.
 
   ```sh
   brew install pyqt qwt
+  brew install gr-air-modes --HEAD
   ```
